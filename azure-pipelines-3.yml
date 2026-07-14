@@ -27,5 +27,5 @@ steps:
   inputs:
     azureSubscription: 'AzureConnection'
     appType: 'webApp'
-    appName: 'simpleapi-sandru'
+    appName: 'simpleapi-sandru-001'
     package: '$(Build.ArtifactStagingDirectory)'
