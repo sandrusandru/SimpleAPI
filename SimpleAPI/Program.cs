@@ -19,7 +19,7 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapGet("/", () => "Welcome to Simple API!");
+app.MapGet("/", () => "Welcome to Simple API sandru");
 
 app.MapGet("/hello", () =>
 {
