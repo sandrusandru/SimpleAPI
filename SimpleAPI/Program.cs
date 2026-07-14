@@ -19,7 +19,7 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapGet("/", () => "Welcome to Simple API Project!");
+app.MapGet("/", () => "Welcome to My Azure Devops CI/CD Project!");
 
 app.MapGet("/hello", () =>
 {
